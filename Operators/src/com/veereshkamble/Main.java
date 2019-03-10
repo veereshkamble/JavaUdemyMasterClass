@@ -42,6 +42,14 @@ public class Main {
         result/=10;
         System.out.println("The result is now  " +result);
 
-        
+        boolean isAlien = false;
+        if(isAlien == false) {
+            System.out.println("It is not an alien");
+        }
+
+        int topScore = 100;
+        if(topScore != 100) {
+            System.out.println("You got the high score");
+        }
     }
 }
