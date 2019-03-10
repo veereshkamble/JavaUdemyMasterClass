@@ -61,5 +61,22 @@ public class Main {
             System.out.println("One of these tests is true");
         }
 
+        int newValue = 50;
+        if(newValue == 50) {
+            System.out.println("This is an error");
+        }
+
+        boolean isCar = false;
+        if(isCar == true) {
+            System.out.println("This is not supposed to happen");
+        }
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if(wasCar) {
+            System.out.println("wasCar is true");
+        }
+
+         
     }
 }
