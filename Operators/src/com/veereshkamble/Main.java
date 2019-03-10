@@ -77,6 +77,16 @@ public class Main {
             System.out.println("wasCar is true");
         }
 
-         
+
+        //Challenge
+        double varialbeOne = 20d;
+        double variableTwo = 80d;
+        double total = (varialbeOne + variableTwo) * 25;
+        System.out.println("My total = " + total);
+        double remainder = total % 40;
+        System.out.println("Remainder = " + remainder);
+        if(remainder <= 20) {
+            System.out.println("Total was over the limit");
+        }
     }
 }
