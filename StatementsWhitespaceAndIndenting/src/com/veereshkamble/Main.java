@@ -17,7 +17,7 @@ public class Main {
         int anotherVariable = 50; anotherVariable++;System.out.println("This is another one");
 
         int secondVariable          =
-                    50; 
+                    50;
 
        }
 }
