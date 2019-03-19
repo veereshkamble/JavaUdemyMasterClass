@@ -63,8 +63,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,6 +85,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,8 +129,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Challenge" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Challenge" />
     </list>
     <recent_temporary>
       <list>
@@ -154,9 +154,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="437" y="72" width="1094" height="934" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4011407" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.44011408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
