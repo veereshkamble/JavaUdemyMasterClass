@@ -42,7 +42,7 @@ public class Challenge {
        } else if(playerScore >= 100) {
            position = 3;
        }
-       return position;
+       return position;  
     }
 
 
