@@ -3,12 +3,6 @@ package com.veereshkamble;
 
 public class SpeedConverter {
 
-    public static void main(String[] args) {
-
-        printConversion(-28);
-        printConversion(10);
-    }
-
     public static long toMilesPerHour(double kilometersPerHour) {
         if(kilometersPerHour < 0) {
             return -1;
