@@ -3,7 +3,7 @@ package com.veereshkamble;
 
 public class SpeedConverter {
 
-    public static long toMilesPerHour(double kilometersPerHour) {
+    public long toMilesPerHour(double kilometersPerHour) {
         if(kilometersPerHour < 0) {
             return -1;
         }
@@ -11,7 +11,7 @@ public class SpeedConverter {
         return Math.round(kilometersPerHour / 1.609);
     }
 
-    public static void printConversion(double kilometersPerHour) {
+    public void printConversion(double kilometersPerHour) {
         if(kilometersPerHour < 0) {
             System.out.println("Invalid Value");
         } else {

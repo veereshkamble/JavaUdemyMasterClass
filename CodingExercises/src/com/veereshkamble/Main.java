@@ -6,6 +6,10 @@ public class Main {
 	// write your code here. Contains code to test our class and not the solution
         System.out.println("Coding Exercises begin here and now. Today!");
 
-        SpeedConverter.printConversion(10.5);
+
+        SpeedConverter speedConverter = new SpeedConverter();
+        long miles = speedConverter.toMilesPerHour(10.5);
+        System.out.println("Miles = " +miles);
+        speedConverter.printConversion(10.5);
     }
 }
