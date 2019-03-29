@@ -120,7 +120,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553835180314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553835265728" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RunDashboard">
@@ -135,7 +135,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MegaBytesConverter">
+  <component name="RunManager" selected="Application.BarkingDog">
+    <configuration name="BarkingDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.veereshkamble.BarkingDog" />
+      <module name="CodingExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.veereshkamble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.veereshkamble.Main" />
       <module name="CodingExercises" />
@@ -190,9 +203,11 @@
       <item itemvalue="Application.PositiveNegativeZero" />
       <item itemvalue="Application.SpeedConverter" />
       <item itemvalue="Application.MegaBytesConverter" />
+      <item itemvalue="Application.BarkingDog" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BarkingDog" />
         <item itemvalue="Application.MegaBytesConverter" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SpeedConverter" />
