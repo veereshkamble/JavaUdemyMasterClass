@@ -13,4 +13,8 @@ public class MegaBytesConverter {
             System.out.println(kiloBytes + " KB = " + mB + " MB and " + kB + " KB");
         }
     }
+
+    public static void main(String[] args) {
+        printMegaBytesAndKiloBytes(2500);
+    }
 }
