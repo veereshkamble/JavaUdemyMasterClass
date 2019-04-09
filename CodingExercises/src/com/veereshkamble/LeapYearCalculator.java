@@ -2,7 +2,7 @@ package com.veereshkamble;
 
 public class LeapYearCalculator {
 
-    public boolean isLeapYear(int year) {
+    public static boolean isLeapYear(int year) {
 
         if(year >= 1 && year <=9999) {
 
@@ -27,6 +27,24 @@ public class LeapYearCalculator {
             return false;
         }
 
+
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(isLeapYear(1700));
+        System.out.println(isLeapYear(1800));
+        System.out.println(isLeapYear(1900));
+        System.out.println(isLeapYear(2100));
+        System.out.println(isLeapYear(2200));
+        System.out.println(isLeapYear(2300));
+        System.out.println(isLeapYear(2500));
+        System.out.println(isLeapYear(2600));
+        System.out.println(isLeapYear(1600));
+        System.out.println(isLeapYear(2000));
+        System.out.println(isLeapYear(2400));
+        System.out.println(isLeapYear(4));
+        System.out.println(isLeapYear(16));
 
     }
 }
