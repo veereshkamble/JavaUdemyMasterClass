@@ -7,5 +7,9 @@ public class EqualSumChecker {
         return num1 + num2 == num3;
     }
 
-    
+    public static void main(String[] args) {
+
+        System.out.println(hasEqualSum(4, 3, 7));
+        System.out.println(hasEqualSum(4, 3, 10));
+    }
 }
