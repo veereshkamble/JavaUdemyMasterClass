@@ -159,7 +159,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554784122777" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554784240565" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RunDashboard">
@@ -174,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EqualSumChecker">
+  <component name="RunManager" selected="Application.TeenNumberChecker">
     <configuration name="BarkingDog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.veereshkamble.BarkingDog" />
       <module name="CodingExercises" />
@@ -227,8 +227,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MegaBytesConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.veereshkamble.MegaBytesConverter" />
+    <configuration name="TeenNumberChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.veereshkamble.TeenNumberChecker" />
       <module name="CodingExercises" />
       <extension name="coverage">
         <pattern>
@@ -242,18 +242,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BarkingDog" />
-      <item itemvalue="Application.MegaBytesConverter" />
       <item itemvalue="Application.LeapYearCalculator" />
       <item itemvalue="Application.DecimalComparator" />
       <item itemvalue="Application.EqualSumChecker" />
+      <item itemvalue="Application.TeenNumberChecker" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TeenNumberChecker" />
         <item itemvalue="Application.EqualSumChecker" />
         <item itemvalue="Application.DecimalComparator" />
         <item itemvalue="Application.LeapYearCalculator" />
         <item itemvalue="Application.BarkingDog" />
-        <item itemvalue="Application.MegaBytesConverter" />
       </list>
     </recent_temporary>
   </component>
