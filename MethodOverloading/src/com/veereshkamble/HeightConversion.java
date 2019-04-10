@@ -2,7 +2,7 @@ package com.veereshkamble;
 
 public class HeightConversion {
 
-    public static double calcFeetAndInchesToCentimeters(int feet, int inches) {
+    public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
 
         if(feet < 0 || (inches < 0 && inches >12)) {
             return -1;
@@ -13,13 +13,13 @@ public class HeightConversion {
         return feetToCms + inchesToCms;
     }
 
-    public static double calcFeetAndInchesToCentimeteres(int inches) {
+    public static double calcFeetAndInchesToCentimeteres(double inches) {
         if(inches < 0 ) {
             return -1;
         }
 
-        int feetInInches = inches / 12;
-        int remainingInches = inches % 12;
+        double feetInInches = inches / 12;
+        double remainingInches = inches % 12;
         return calcFeetAndInchesToCentimeters(feetInInches, remainingInches);
     }
 
