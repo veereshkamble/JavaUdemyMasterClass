@@ -61,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/LeapYearCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+              <caret line="30" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -70,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/DecimalComparator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+              <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -79,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/EqualSumChecker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+              <caret line="7" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -130,7 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,22 +138,11 @@
               <item name="CodingExercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingExercises" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CodingExercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercises" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingExercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingExercises" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="veereshkamble" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,9 +229,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.BarkingDog" />
+      <item itemvalue="Application.LeapYearCalculator" />
       <item itemvalue="Application.DecimalComparator" />
       <item itemvalue="Application.EqualSumChecker" />
-      <item itemvalue="Application.LeapYearCalculator" />
       <item itemvalue="Application.TeenNumberChecker" />
     </list>
     <recent_temporary>
@@ -271,7 +260,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34432235" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34859586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,21 +327,21 @@
     <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/LeapYearCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <caret line="30" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/DecimalComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/EqualSumChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+          <caret line="7" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
