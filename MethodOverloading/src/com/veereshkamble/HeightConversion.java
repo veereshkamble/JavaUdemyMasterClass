@@ -5,6 +5,7 @@ public class HeightConversion {
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
 
         if(feet < 0 || inches < 0 || inches >12) {
+            System.out.println("nvalid feet or inches parameters");
             return -1;
         }
 
@@ -18,8 +19,8 @@ public class HeightConversion {
             return -1;
         }
 
-        double feetInInches = inches / 12;
-        double remainingInches = inches % 12;
+        double feetInInches = (int) inches / 12;
+        double remainingInches = (int) inches % 12;
         return calcFeetAndInchesToCentimeters(feetInInches, remainingInches);
     }
 
