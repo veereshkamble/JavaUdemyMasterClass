@@ -4,7 +4,7 @@ public class HeightConversion {
 
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
 
-        if(feet < 0 || (inches < 0 && inches >12)) {
+        if(feet < 0 || inches < 0 || inches >12) {
             return -1;
         }
 
