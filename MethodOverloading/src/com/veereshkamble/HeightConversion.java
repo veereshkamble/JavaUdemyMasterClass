@@ -5,7 +5,7 @@ public class HeightConversion {
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
 
         if(feet < 0 || inches < 0 || inches >12) {
-            System.out.println("nvalid feet or inches parameters");
+            System.out.println("Invalid feet or inches parameters");
             return -1;
         }
 
