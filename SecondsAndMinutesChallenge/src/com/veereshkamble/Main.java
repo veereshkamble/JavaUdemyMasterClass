@@ -4,29 +4,32 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        System.out.println(getDurationString(90, 30));
-        System.out.println(getDurationString(3660));
+        System.out.println(getDurationString(90L, 30L));
+        System.out.println(getDurationString(3945L));
 
     }
 
-    public static String getDurationString(int minutes, int seconds) {
+    public static String getDurationString(long minutes, long seconds) {
 
         if(minutes < 0 || seconds < 0 || seconds > 59) {
             return "Invalid value";
         }
 
-        int hr = minutes / 60;
-        int min = minutes % 60;
+        long hour = minutes / 60;
+        long remainingMinutes = minutes % 60;
 
-        return String.valueOf(hr) + "h " + String.valueOf(min) + "m " + String.valueOf(seconds) + "s";
+        return hour + "h " + remainingMinutes + "m " + seconds + "s";
     }
 
-    public static String getDurationString(int seconds) {
+    public static String getDurationString(long seconds) {
 
         if(seconds < 0) {
             return "Invalid value";
         }
 
-        return getDurationString(seconds / 60, seconds % 60);
+        long minutes = seconds / 60;
+        long remainingSeconds = seconds % 60;
+
+        return getDurationString(minutes, remainingSeconds);
     }
 }
