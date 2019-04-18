@@ -18,5 +18,11 @@ public class AreaCalculator {
 
         return x * y;
     }
-    
+
+    public static void main(String[] args) {
+
+        System.out.println(area(5));
+        System.out.println(area(5, 5));
+    }
+
 }
