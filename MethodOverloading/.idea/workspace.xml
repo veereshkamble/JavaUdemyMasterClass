@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="279d5bec-ca03-4f97-b9a0-5548f753dd6b" name="Default Changelist" comment="" />
+    <list default="true" id="279d5bec-ca03-4f97-b9a0-5548f753dd6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/veereshkamble/EqualityPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veereshkamble/EqualityPrinter.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/EqualityPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="285">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -75,6 +77,7 @@
         <option value="$PROJECT_DIR$/src/com/veereshkamble/HeightConversion.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/AreaCalculator.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/MinutesToYearsDaysCalculator.java" />
+        <option value="$PROJECT_DIR$/src/com/veereshkamble/EqualityPrinter.java" />
       </list>
     </option>
   </component>
@@ -117,7 +120,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555569737962" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555570054012" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,9 +134,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinutesToYearsDaysCalculator">
+  <component name="RunManager" selected="Application.EqualityPrinter">
     <configuration name="AreaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.veereshkamble.AreaCalculator" />
+      <module name="MethodOverloading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.veereshkamble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EqualityPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.veereshkamble.EqualityPrinter" />
       <module name="MethodOverloading" />
       <extension name="coverage">
         <pattern>
@@ -186,9 +202,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.AreaCalculator" />
       <item itemvalue="Application.MinutesToYearsDaysCalculator" />
+      <item itemvalue="Application.EqualityPrinter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EqualityPrinter" />
         <item itemvalue="Application.MinutesToYearsDaysCalculator" />
         <item itemvalue="Application.AreaCalculator" />
         <item itemvalue="Application.HeightConversion" />
@@ -211,6 +229,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="875" y="23" width="805" height="984" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30668414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -266,6 +285,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/EqualityPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>

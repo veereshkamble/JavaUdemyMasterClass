@@ -14,4 +14,11 @@ public class EqualityPrinter {
             System.out.println("Neither all are equal or different");
         }
     }
+
+    public static void main(String[] args) {
+
+        printEqual(7, 7, 7);
+        printEqual(7, 7, 9);
+        printEqual(7, 8, 9);
+    }
 }
