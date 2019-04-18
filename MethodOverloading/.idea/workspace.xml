@@ -111,7 +111,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555564315355" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555564498662" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AreaCalculator">
+  <component name="RunManager" selected="Application.MinutesToYearsDaysCalculator">
     <configuration name="AreaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.veereshkamble.AreaCalculator" />
       <module name="MethodOverloading" />
@@ -162,13 +162,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinutesToYearsDaysCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.veereshkamble.MinutesToYearsDaysCalculator" />
+      <module name="MethodOverloading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.veereshkamble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.HeightConversion" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.AreaCalculator" />
+      <item itemvalue="Application.MinutesToYearsDaysCalculator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinutesToYearsDaysCalculator" />
         <item itemvalue="Application.AreaCalculator" />
         <item itemvalue="Application.HeightConversion" />
         <item itemvalue="Application.Main" />
