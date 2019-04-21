@@ -65,5 +65,22 @@ public class Main {
                 break;
         }
 
+        String switchMonth = "Novemeber";
+
+        switch(switchMonth) {
+
+            case "January":
+                System.out.println("Jan");
+                break;
+
+            case "Novemeber":
+                System.out.println("Nov");
+                break;
+
+            default:
+                System.out.println("Not sure");
+                break;
+        }
+
     }
 }
