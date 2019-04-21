@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2abc3509-513e-46c0-90a9-9d6d60e12650" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/veereshkamble/DayOfTheWeekChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/veereshkamble/NumberInWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,11 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/DayOfTheWeekChallenge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            <state relative-caret-position="960">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/NumberInWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -49,6 +58,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/veereshkamble/Main.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/DayOfTheWeekChallenge.java" />
+        <option value="$PROJECT_DIR$/src/com/veereshkamble/NumberInWord.java" />
       </list>
     </option>
   </component>
@@ -91,7 +101,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555816917805" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555817442734" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -108,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DayOfTheWeekChallenge">
+  <component name="RunManager" selected="Application.NumberInWord">
     <configuration name="DayOfTheWeekChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.veereshkamble.DayOfTheWeekChallenge" />
       <module name="Switch" />
@@ -132,12 +142,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberInWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.veereshkamble.NumberInWord" />
+      <module name="Switch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.veereshkamble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.DayOfTheWeekChallenge" />
+      <item itemvalue="Application.NumberInWord" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberInWord" />
         <item itemvalue="Application.DayOfTheWeekChallenge" />
         <item itemvalue="Application.Main" />
       </list>
@@ -165,7 +190,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24901704" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24901704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -173,8 +198,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.3295964" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295964" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -198,8 +223,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/DayOfTheWeekChallenge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        <state relative-caret-position="960">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/NumberInWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
         </state>
       </provider>
     </entry>
