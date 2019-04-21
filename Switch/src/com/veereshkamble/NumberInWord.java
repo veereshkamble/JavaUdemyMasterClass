@@ -56,6 +56,6 @@ public class NumberInWord {
 
         printNumberInWord(7);
 
-        
+
     }
 }
