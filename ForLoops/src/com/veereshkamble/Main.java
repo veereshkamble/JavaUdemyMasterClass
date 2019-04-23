@@ -13,6 +13,10 @@ public class Main {
             System.out.println( "Loop " + i + " hello!");
 
         }
+
+        for(double i = 2; i <= 8; i++) {
+            System.out.println("10,000 at " + i + " % interest rate = " + calculateInterest(10,i));
+        }
     }
 
     public static double calculateInterest(double amount, double interestRate) {
