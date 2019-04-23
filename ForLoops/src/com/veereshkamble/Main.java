@@ -14,8 +14,8 @@ public class Main {
 
         }
 
-        for(double i = 2; i <= 8; i++) {
-            System.out.println("10,000 at " + i + " % interest rate = " + calculateInterest(10,i));
+        for(int i = 2; i <= 8; i++) {
+            System.out.println("10,000 at " + i + " % interest rate = " + String.format("%.2f",calculateInterest(10000,i)));
         }
     }
 
