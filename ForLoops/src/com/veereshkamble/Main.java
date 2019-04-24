@@ -24,6 +24,17 @@ public class Main {
 
         System.out.println(isPrime(10));
         System.out.println(isPrime(11));
+
+        int count = 0;
+        for(int i = 1; i <= 10; i++) {
+            if(isPrime(i)) {
+                System.out.println("Prime Number is : " + i + " The count is : " + ++count);
+            }
+
+            if(count == 3) {
+                break;
+            }
+        }
     }
 
     public static double calculateInterest(double amount, double interestRate) {
