@@ -21,5 +21,7 @@ public class Sum3And5Challenge {
             }
 
         }
+
+        System.out.println("Sum = " + sum);
     }
 }
