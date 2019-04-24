@@ -26,14 +26,17 @@ public class Main {
         System.out.println(isPrime(11));
 
         int count = 0;
-        for(int i = 1; i <= 10; i++) {
+        for(int i = 10; i <= 50; i++) {
             if(isPrime(i)) {
-                System.out.println("Prime Number is : " + i + " The count is : " + ++count);
+                count++;
+                System.out.println("Number " + i + " is a prime number");
+                if(count == 3) {
+                    System.out.println("Exiting for loop");
+                    break;
+                }
             }
 
-            if(count == 3) {
-                break;
-            }
+
         }
     }
 
