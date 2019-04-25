@@ -4,7 +4,7 @@ public class SumOdd {
 
     public static boolean isOdd(int number) {
 
-        if(number > 0) {
+        if(number <= 0) {
             return false;
         }
 
@@ -28,5 +28,10 @@ public class SumOdd {
             }
         }
         return sum;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(sumOdd(1,10));
     }
 }
