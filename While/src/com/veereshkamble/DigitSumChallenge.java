@@ -19,6 +19,9 @@ public class DigitSumChallenge {
     }
 
     public static void main(String[] args) {
-        System.out.println(sunDigits(125));
+        System.out.println("The sum of the digits in number 125 is " + sunDigits(125));
+        System.out.println("The sum of the digits in number -125 is " + sunDigits(-125));
+        System.out.println("The sum of the digits in number 4 is " + sunDigits(4));
+        System.out.println("The sum of the digits in number 32123 is " + sunDigits(32123));
     }
 }
