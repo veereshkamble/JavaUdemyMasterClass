@@ -17,8 +17,12 @@ public class LastDigitChecker {
         int num2LastDigit = num2 % 10;
         int num3LastDigit = num3 % 10;
 
-        return (num1LastDigit == num2LastDigit || num1LastDigit == num3LastDigit || num2LastDigit == num3LastDigit);
+        return (sameDigit(num1LastDigit, num2LastDigit) || sameDigit(num1LastDigit, num3LastDigit))
+                || (sameDigit(num2LastDigit, num3LastDigit));
+    }
 
+    public static boolean sameDigit(int num1, int num2) {
+        return num1 == num2;
     }
 
 
