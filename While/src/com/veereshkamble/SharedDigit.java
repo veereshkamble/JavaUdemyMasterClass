@@ -19,4 +19,9 @@ public class SharedDigit {
 
         return false;
     }
+
+    public static void main(String[] args) {
+
+        System.out.println(hasSharedDigit(12, 23));
+    }
 }

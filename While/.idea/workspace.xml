@@ -131,7 +131,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556605805861" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556606164916" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EvenDigitSum">
+  <component name="RunManager" selected="Application.SharedDigit">
     <configuration name="DigitSumChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.veereshkamble.DigitSumChallenge" />
       <module name="While" />
@@ -185,16 +185,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.veereshkamble.Main" />
-      <module name="While" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NumberPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.veereshkamble.NumberPalindrome" />
       <module name="While" />
@@ -208,13 +198,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SharedDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.veereshkamble.SharedDigit" />
+      <module name="While" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.veereshkamble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SharedDigit" />
         <item itemvalue="Application.EvenDigitSum" />
         <item itemvalue="Application.FirstAndLastDigitSum" />
         <item itemvalue="Application.NumberPalindrome" />
         <item itemvalue="Application.DigitSumChallenge" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
