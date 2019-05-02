@@ -17,4 +17,9 @@ public class AllFactors {
             factor++;
         }
     }
+
+    public static void main(String[] args) {
+
+        printFactors(32);
+    }
 }

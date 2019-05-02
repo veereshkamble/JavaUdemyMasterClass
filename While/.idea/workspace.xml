@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="579e1bf9-3a68-4652-a71c-1f07d3d32cbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/veereshkamble/GreatestCommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veereshkamble/GreatestCommonDivisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/veereshkamble/AllFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veereshkamble/AllFactors.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,11 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/GreatestCommonDivisor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/AllFactors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -108,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/com/veereshkamble/SharedDigit.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/LastDigitChecker.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/GreatestCommonDivisor.java" />
+        <option value="$PROJECT_DIR$/src/com/veereshkamble/AllFactors.java" />
       </list>
     </option>
   </component>
@@ -150,7 +160,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556770887441" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556771150241" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,9 +174,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GreatestCommonDivisor">
-    <configuration name="EvenDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.veereshkamble.EvenDigitSum" />
+  <component name="RunManager" selected="Application.AllFactors">
+    <configuration name="AllFactors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.veereshkamble.AllFactors" />
       <module name="While" />
       <extension name="coverage">
         <pattern>
@@ -178,8 +188,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstAndLastDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.veereshkamble.FirstAndLastDigitSum" />
+    <configuration name="EvenDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.veereshkamble.EvenDigitSum" />
       <module name="While" />
       <extension name="coverage">
         <pattern>
@@ -232,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllFactors" />
         <item itemvalue="Application.GreatestCommonDivisor" />
         <item itemvalue="Application.LastDigitChecker" />
         <item itemvalue="Application.SharedDigit" />
         <item itemvalue="Application.EvenDigitSum" />
-        <item itemvalue="Application.FirstAndLastDigitSum" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +267,7 @@
     <frame x="875" y="23" width="805" height="984" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28178245" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28178245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -266,7 +276,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31614348" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31614348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,6 +350,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/AllFactors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>
