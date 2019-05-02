@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="579e1bf9-3a68-4652-a71c-1f07d3d32cbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/veereshkamble/AllFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veereshkamble/AllFactors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/veereshkamble/PerfectNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/AllFactors.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/PerfectNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+              <caret line="22" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -118,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/com/veereshkamble/LastDigitChecker.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/GreatestCommonDivisor.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/AllFactors.java" />
+        <option value="$PROJECT_DIR$/src/com/veereshkamble/PerfectNumber.java" />
       </list>
     </option>
   </component>
@@ -160,7 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556771150241" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556771369714" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -355,8 +366,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/AllFactors.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/PerfectNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <caret line="22" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
