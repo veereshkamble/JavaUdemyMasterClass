@@ -19,4 +19,8 @@ public class GreatestCommonDivisor {
         }
         return greatestDivisor;
     }
+
+    public static void main(String[] args) {
+        System.out.println(getGreatestCommonDivisor(25, 15));
+    }
 }
