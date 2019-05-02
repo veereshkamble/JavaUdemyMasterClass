@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="579e1bf9-3a68-4652-a71c-1f07d3d32cbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/veereshkamble/GreatestCommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veereshkamble/GreatestCommonDivisor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/GreatestCommonDivisor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -107,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/com/veereshkamble/EvenDigitSum.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/SharedDigit.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/LastDigitChecker.java" />
+        <option value="$PROJECT_DIR$/src/com/veereshkamble/GreatestCommonDivisor.java" />
       </list>
     </option>
   </component>
@@ -256,7 +257,7 @@
     <frame x="875" y="23" width="805" height="984" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28178245" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28178245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -337,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/GreatestCommonDivisor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="285">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
         </state>
       </provider>
     </entry>
