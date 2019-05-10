@@ -16,6 +16,43 @@ public class NumberToWords {
             switch (digit) {
                 case 0:
                     numberInWords = numberInWords + "Zero ";
+                    break;
+
+                case 1:
+                    numberInWords = numberInWords + "One ";
+                    break;
+
+                case 2:
+                    numberInWords = numberInWords + "Two ";
+                    break;
+
+                case 3:
+                    numberInWords = numberInWords + "Three ";
+                    break;
+
+                case 4:
+                    numberInWords = numberInWords + "Four ";
+                    break;
+
+                case 5:
+                    numberInWords = numberInWords + "Five ";
+                    break;
+
+                case 6:
+                    numberInWords = numberInWords + "Six ";
+                    break;
+
+                case 7:
+                    numberInWords = numberInWords + "Seven ";
+                    break;
+
+                case 8:
+                    numberInWords = numberInWords + "Eight ";
+                    break;
+
+                case 9:
+                    numberInWords = numberInWords + "Nine ";
+                    break;
             }
         }
     }
