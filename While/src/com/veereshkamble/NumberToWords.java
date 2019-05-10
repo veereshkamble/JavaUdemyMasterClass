@@ -20,7 +20,19 @@ public class NumberToWords {
         }
     }
 
-    
+    public static int reverse(int number) {
+
+        int reverse = 0;
+        number = Math.abs(number);
+
+        while(number != 0) {
+            int digit = number % 10;
+            reverse = reverse * 10 + digit;
+            number = number / 10;
+        }
+
+        return reverse;
+    }
 
     public static void main(String[] args) {
         numberToWords(234);
