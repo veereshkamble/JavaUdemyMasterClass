@@ -54,7 +54,10 @@ public class NumberToWords {
                     numberInWords = numberInWords + "Nine ";
                     break;
             }
+            reverseNumber /= 10;
         }
+
+        System.out.println(numberInWords);
     }
 
     public static int reverse(int number) {
@@ -65,13 +68,34 @@ public class NumberToWords {
         while(number != 0) {
             int digit = number % 10;
             reverse = reverse * 10 + digit;
-            number = number / 1km0;
+            number = number / 10;
         }
 
-        return reverse;
+        return Math.negateExact(reverse);
+    }
+
+    public static int getDigitCount(int number) {
+
+        if(number < 0) {
+            return -1;
+        }
+
+        if(number == 0) {
+            return 1;
+        }
+
+        int count = 0;
+        while(number != 0) {
+            number /= 10;
+            count++;
+        }
+
+        return count;
     }
 
     public static void main(String[] args) {
         numberToWords(234);
+        System.out.println(getDigitCount(100));
+        System.out.println(reverse(123));
     }
 }
