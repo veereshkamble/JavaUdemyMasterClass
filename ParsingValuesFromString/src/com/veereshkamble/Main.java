@@ -17,6 +17,6 @@ public class Main {
         System.out.println("numer = " + number);
 
         double dNumber = Double.parseDouble(numberAsString);
-        System.out.println("numer = " + dNumber);
+        System.out.println("number = " + dNumber);
     }
 }
