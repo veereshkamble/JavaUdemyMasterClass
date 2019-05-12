@@ -11,6 +11,10 @@ public class NumberToWords {
             System.out.println("Invalid Value");
         }
 
+        if(number == 0) {
+            System.out.println("Zero");
+        }
+
         while(reverseNumber != 0) {
             int digit = reverseNumber % 10;
             switch (digit) {
@@ -100,6 +104,7 @@ public class NumberToWords {
     public static void main(String[] args) {
         numberToWords(-234);
         numberToWords(100);
+        numberToWords(0);
         System.out.println(getDigitCount(100));
         System.out.println(reverse(-123));
     }
