@@ -4,66 +4,70 @@ public class NumberToWords {
 
     public static void numberToWords(int number) {
 
+        int reverseNumber = reverse(number);
+        int tempReverseNumber = reverseNumber;
+
         if(number < 0) {
             System.out.println("Invalid Value");
         }
-
-        int reverseNumber = reverse(number);
-        String numberInWords = "";
 
         while(reverseNumber != 0) {
             int digit = reverseNumber % 10;
             switch (digit) {
                 case 0:
-                    numberInWords = numberInWords + "Zero ";
+                    System.out.println("Zero");
                     break;
 
                 case 1:
-                    numberInWords = numberInWords + "One ";
+                    System.out.println("One");
                     break;
 
                 case 2:
-                    numberInWords = numberInWords + "Two ";
+                    System.out.println("Two");
                     break;
 
                 case 3:
-                    numberInWords = numberInWords + "Three ";
+                    System.out.println("Three");
                     break;
 
                 case 4:
-                    numberInWords = numberInWords + "Four ";
+                    System.out.println("Four");
                     break;
 
                 case 5:
-                    numberInWords = numberInWords + "Five ";
+                    System.out.println("Five");
                     break;
 
                 case 6:
-                    numberInWords = numberInWords + "Six ";
+                    System.out.println("Six");
                     break;
 
                 case 7:
-                    numberInWords = numberInWords + "Seven ";
+                    System.out.println("Seven");
                     break;
 
                 case 8:
-                    numberInWords = numberInWords + "Eight ";
+                    System.out.println("Eight");
                     break;
 
                 case 9:
-                    numberInWords = numberInWords + "Nine ";
+                    System.out.println("Nine");
                     break;
             }
             reverseNumber /= 10;
         }
 
-        System.out.println(numberInWords);
+        int diff = getDigitCount(number) - getDigitCount(tempReverseNumber);
+        if(diff > 0) {
+            for(int i = 0; i < diff; i++) {
+                System.out.println("Zero");
+            }
+        }
     }
 
     public static int reverse(int number) {
 
         int reverse = 0;
-        number = Math.abs(number);
 
         while(number != 0) {
             int digit = number % 10;
@@ -71,7 +75,7 @@ public class NumberToWords {
             number = number / 10;
         }
 
-        return Math.negateExact(reverse);
+        return reverse;
     }
 
     public static int getDigitCount(int number) {
@@ -94,8 +98,9 @@ public class NumberToWords {
     }
 
     public static void main(String[] args) {
-        numberToWords(234);
+        numberToWords(-234);
+        numberToWords(100);
         System.out.println(getDigitCount(100));
-        System.out.println(reverse(123));
+        System.out.println(reverse(-123));
     }
 }
