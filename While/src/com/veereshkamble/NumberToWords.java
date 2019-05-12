@@ -65,7 +65,7 @@ public class NumberToWords {
         while(number != 0) {
             int digit = number % 10;
             reverse = reverse * 10 + digit;
-            number = number / 10;
+            number = number / 1km0;
         }
 
         return reverse;
