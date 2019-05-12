@@ -8,14 +8,21 @@ public class FlourPackProblem {
             return false;
         }
 
-        int bigKilo = 5 * bigCount;
-        int smallKilo = 1 * smallCount;
-
-        if(goal < 5) {
-            return smallKilo >= goal;
+        if(bigCount == 0) {
+            return smallCount >= goal;
         } else {
-            return bigKilo + smallKilo >= goal;
+            int bigCountUsed = goal / 5;
+            iint remainingGoal = goal - (bigCountUsed * 5);
+            if(bigCountUsed == 0) {
+                return smallCount >= goal;
+            } else {
+
+                return smallCount >= remainingGoal;
+            }
         }
+
+
+
 
     }
 
@@ -25,5 +32,6 @@ public class FlourPackProblem {
         System.out.println(canPack(0, 5, 4));
         System.out.println(canPack(2, 2, 11));
         System.out.println(canPack(-3,2, 12));
+        System.out.println(canPack(5, 3, 24));
     }
 }
