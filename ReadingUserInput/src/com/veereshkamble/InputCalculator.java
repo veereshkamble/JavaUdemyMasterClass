@@ -23,15 +23,19 @@ public class InputCalculator {
                 sum += num;
                 count++;
             } else {
+                average = Math.round(sum / count);
+                System.out.println("SUM = " + sum + " AVG = " + average);
                 break;
             }
 
-            average = Math.round(sum / count);
-
-            System.out.println("SUM = " + sum + " AVG = " + average);
-
         }
 
+
         scanner.close();
+    }
+
+    public static void main(String[] args) {
+
+        inputThenPrintSumAndAverage();
     }
 }
