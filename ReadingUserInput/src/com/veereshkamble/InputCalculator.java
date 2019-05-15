@@ -23,7 +23,7 @@ public class InputCalculator {
                 sum += num;
                 count++;
             } else {
-                average = Math.round(sum / count);
+                average = Math.round((double)sum / (double)count);
                 System.out.println("SUM = " + sum + " AVG = " + average);
                 break;
             }
