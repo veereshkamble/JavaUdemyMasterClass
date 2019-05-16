@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a31343-c78c-43aa-8277-13a9ef647c5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/veereshkamble/PaintJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veereshkamble/PaintJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/InputCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+            <state relative-caret-position="510">
+              <caret line="34" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -76,8 +76,8 @@
         <option value="$PROJECT_DIR$/src/com/veereshkamble/Main.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/ReadingUserInputChallenge.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/MinAndMaxInputChallenge.java" />
-        <option value="$PROJECT_DIR$/src/com/veereshkamble/InputCalculator.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/PaintJob.java" />
+        <option value="$PROJECT_DIR$/src/com/veereshkamble/InputCalculator.java" />
       </list>
     </option>
   </component>
@@ -120,7 +120,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557903696667" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557903709176" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -214,8 +214,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="875" y="23" width="805" height="984" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2555701" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2621232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -224,7 +225,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -274,8 +275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/InputCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        <state relative-caret-position="510">
+          <caret line="34" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
