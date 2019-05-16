@@ -9,13 +9,16 @@ public class PaintJob {
         }
 
         double area = width * height;
-        int totalBuckets = (int) (area / areaPerBucket);
+        System.out.println("Area = " + area);
+        int totalBuckets =  Math.round(area/areaPerBucket);
+        System.out.println("Total Buckets = " + totalBuckets);
         return totalBuckets - extraBuckets;
     }
 
     public static void main(String[] args) {
 
         System.out.println(getBucketCount(2.75, 3.25, 2.5, 1));
+        System.out.println();
     }
 
 
