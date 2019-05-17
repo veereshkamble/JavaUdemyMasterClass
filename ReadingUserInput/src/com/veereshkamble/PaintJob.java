@@ -10,7 +10,7 @@ public class PaintJob {
 
         double area = width * height;
         int totalBuckets = (int) Math.ceil(area / areaPerBucket);
-        
+
         return totalBuckets - extraBuckets;
     }
 
@@ -25,12 +25,21 @@ public class PaintJob {
         return totalBuckets;
     }
 
+    public static int getBucketCount(double area, double areaPerBucket) {
+        if(area <= 0 || areaPerBucket <= 0) {
+            return -1;
+        }
+
+        return (int) Math.ceil(area / areaPerBucket);
+    }
+
     public static void main(String[] args) {
 
         System.out.println(getBucketCount(2.75, 3.25, 2.5, 1));
         System.out.println(getBucketCount(3.4, 2.1, 1.5, 2));
         System.out.println(getBucketCount(3.4, 2.1, 1.5));
         System.out.println(getBucketCount(7.25, 4.3, 2.35));
+        
     }
 
 }
