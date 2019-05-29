@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5a31343-c78c-43aa-8277-13a9ef647c5b" name="Default Changelist" comment="" />
+    <list default="true" id="d5a31343-c78c-43aa-8277-13a9ef647c5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/PaintJob.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="705">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -171,11 +173,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ReadingUserInputChallenge" />
-      <item itemvalue="Application.MinAndMaxInputChallenge" />
       <item itemvalue="Application.InputCalculator" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MinAndMaxInputChallenge" />
       <item itemvalue="Application.PaintJob" />
+      <item itemvalue="Application.ReadingUserInputChallenge" />
     </list>
     <recent_temporary>
       <list>
@@ -202,6 +204,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="875" y="23" width="805" height="984" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2621232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -263,7 +266,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/PaintJob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
