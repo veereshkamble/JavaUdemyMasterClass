@@ -8,6 +8,6 @@ public class Main {
         Car porsche = new Car();
         Car maruti = new Car();
 
-        porsche.
+        porsche.setModel("Carrera");
     }
 }
