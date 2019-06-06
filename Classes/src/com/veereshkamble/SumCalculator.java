@@ -21,5 +21,14 @@ public class SumCalculator {
         this.secondNumber = secondNumber;
     }
 
+    public double getAdditionResult() {
+        return this.firstNumber + this.secondNumber;
+    }
+
+    public double getSubtractionResult() {
+        return this.firstNumber - this.secondNumber;
+    }
+
+    
 
 }
