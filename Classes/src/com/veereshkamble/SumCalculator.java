@@ -29,6 +29,16 @@ public class SumCalculator {
         return this.firstNumber - this.secondNumber;
     }
 
-    
+    public double getMultiplicationResult() {
+        return this.firstNumber * this.secondNumber;
+    }
+
+    public double getDivisionResult() {
+        if(this.secondNumber == 0) {
+            return 0;
+        }
+
+        return this.firstNumber / this.secondNumber;
+    }
 
 }
