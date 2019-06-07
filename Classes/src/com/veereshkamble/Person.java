@@ -27,9 +27,15 @@ public class Person {
     }
 
     public void setAge(int age) {
-        this.age = age;
+        if(age < 0 || age > 100) {
+            this.age = 0;
+        } else {
+            this.age = age;
+        }
     }
 
-    
+    public boolean isTeen(int age) {
+        return (age > 12 && age < 20);
+    }
 
 }
