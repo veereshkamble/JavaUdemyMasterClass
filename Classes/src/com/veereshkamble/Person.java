@@ -38,4 +38,15 @@ public class Person {
         return (age > 12 && age < 20);
     }
 
+    public String getFullName() {
+        if(firstName.isEmpty() && lastName.isEmpty()) {
+            return "";
+        } else if(firstName.isEmpty()) {
+            return this.lastName;
+        } else if(lastName.isEmpty()) {
+            return this.firstName;
+        } else {
+            return this.firstName + " " +this.lastName;
+        }
+    }
 }
