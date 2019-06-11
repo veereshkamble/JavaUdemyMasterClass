@@ -47,4 +47,16 @@ public class BankAccount {
     public int getPhoneNumber() {
         return this.phoneNumber;
     }
+
+    public void depositFunds(double depositAmount) {
+        this.balance = this.balance + depositAmount;
+    }
+
+    public void withdrawFinds(double withdrawAmount) {
+        if(this.balance >= withdrawAmount) {
+            this.balance = this.balance - withdrawAmount;
+        } else {
+            System.out.println("Insufficient Funds");
+        }
+    }
 }
