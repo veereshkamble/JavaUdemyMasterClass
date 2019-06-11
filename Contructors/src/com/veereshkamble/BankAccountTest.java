@@ -4,13 +4,9 @@ public class BankAccountTest {
 
     public static void main(String[] args) {
 
-        BankAccount bankAccount = new BankAccount();
+        BankAccount bankAccount = new BankAccount(12345, 1000, "Ronaldo",
+                "cristiano@ronaldo.com", 777777777);
 
-        bankAccount.setAccountNumber(12345);
-        bankAccount.setBalance(1000);
-        bankAccount.setCustomerName("Ronaldo");
-        bankAccount.setEmail("cristiano@ronaldo.com");
-        bankAccount.setPhoneNumber(7);
 
         System.out.println("Account Number : " +bankAccount.getAccountNumber());
         System.out.println("Balance : " +bankAccount.getBalance());
