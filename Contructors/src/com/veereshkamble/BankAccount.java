@@ -50,11 +50,13 @@ public class BankAccount {
 
     public void depositFunds(double depositAmount) {
         this.balance = this.balance + depositAmount;
+        System.out.println("Deposit of " +depositAmount + " made. Running balance : " + this.balance);
     }
 
     public void withdrawFinds(double withdrawAmount) {
         if(this.balance > withdrawAmount) {
             this.balance = this.balance - withdrawAmount;
+            System.out.println("Withdrawal of " +withdrawAmount + " made. Running balance : " + this.balance);
         } else {
             System.out.println("Insufficient Funds. You can only withdraw " + this.balance);
         }
