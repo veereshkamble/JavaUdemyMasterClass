@@ -20,5 +20,8 @@ public class BankAccountTest {
 
         bankAccount.withdrawFinds(11000.00);
 
+        BankAccount bankAccount1 = new BankAccount("Messi", "messi@barcelona.com", 101010);
+        
+
     }
 }
