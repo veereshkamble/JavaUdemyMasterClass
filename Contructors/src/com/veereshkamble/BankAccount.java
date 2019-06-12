@@ -24,6 +24,8 @@ public class BankAccount {
     }
 
     public BankAccount(String customerName, String email, int phoneNumber) {
+        this(99999, 100.32, customerName,
+                email, phoneNumber);
         this.customerName = customerName;
         this.email = email;
         this.phoneNumber = phoneNumber;
