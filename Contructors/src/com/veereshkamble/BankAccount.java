@@ -23,6 +23,12 @@ public class BankAccount {
         this.phoneNumber = phoneNumber;
     }
 
+    public BankAccount(String customerName, String email, int phoneNumber) {
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
     public void setAccountNumber(long accountNumber) {
         this.accountNumber = accountNumber;
     }
