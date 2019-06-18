@@ -29,8 +29,10 @@ public class VipCustomer {
     }
 
     public VipCustomer(String name, String emailAddress) {
+        this(name, 0.0, emailAddress);
         this.name = name;
         this.emailAddress = emailAddress;
         this.creditLimit = 0.0;
+
     }
 }
