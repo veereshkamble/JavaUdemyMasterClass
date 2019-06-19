@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1b5449f-a753-4ac8-80ce-5796b872ba3f" name="Default Changelist" comment="" />
+    <list default="true" id="c1b5449f-a753-4ac8-80ce-5796b872ba3f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/veereshkamble/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veereshkamble/Wall.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +32,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/WallArea.java">
+        <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/Wall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="450">
+              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -91,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/com/veereshkamble/VipCustomer.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/Main.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/VipCustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/veereshkamble/Wall.java" />
       </list>
     </option>
   </component>
@@ -133,7 +136,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560925081320" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560925152119" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,6 +209,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="875" y="23" width="805" height="984" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26867628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -268,6 +272,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/Wall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
         </state>
       </provider>
     </entry>
