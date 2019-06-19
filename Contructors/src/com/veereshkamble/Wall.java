@@ -16,7 +16,10 @@ public class Wall {
             this.width = width;
         }
 
-        this.width = width;
-        this.height = height;
+        if(height < 0) {
+            this.height = 0;
+        } else {
+            this.height = height;
+        }
     }
 }
