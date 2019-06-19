@@ -30,4 +30,12 @@ public class Wall {
     public double getHeight() {
         return this.height;
     }
+
+    public void setWidth(double width) {
+        if(width < 0) {
+            this.width = 0;
+        } else {
+            this.width = width;
+        }
+    }
 }
