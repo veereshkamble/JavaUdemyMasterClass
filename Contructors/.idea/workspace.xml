@@ -143,7 +143,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560925492176" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560925623263" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -157,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VipCustomerTest">
+  <component name="RunManager" selected="Application.WallTest">
     <configuration name="BankAccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.veereshkamble.BankAccountTest" />
       <module name="Contructors" />
@@ -194,8 +194,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WallTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.veereshkamble.WallTest" />
+      <module name="Contructors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.veereshkamble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WallTest" />
         <item itemvalue="Application.VipCustomerTest" />
         <item itemvalue="Application.BankAccountTest" />
       </list>
