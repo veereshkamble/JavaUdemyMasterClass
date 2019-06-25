@@ -28,4 +28,19 @@ public class Point {
     public void setY(int y) {
         this.y = y;
     }
+
+    public double distance(){
+
+        return  Math.sqrt((this.x*this.x) + (this.y * this.y) );
+
+    }
+
+    public double distance(int x, int y){
+        return Math.sqrt((x - getX()) * (x - getX()) + (y - getY()) * (y- getY()));
+
+    }
+
+    public double distance(Point point){
+        return distance(point.x, point.y);
+    }
 }
