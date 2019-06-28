@@ -17,4 +17,20 @@ public class ComplexNumber {
     public double getImaginary() {
         return this.imaginary;
     }
+
+    public void add(double real, double imaginary) {
+
+    }
+
+    public void add(ComplexNumber complexNumber) {
+
+    }
+
+    public void subtract(double real, double imaginary) {
+
+    }
+
+    public void subtract(ComplexNumber complexNumber) {
+
+    }
 }
