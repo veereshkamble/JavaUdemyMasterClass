@@ -10,5 +10,11 @@ public class ComplexNumber {
         this.imaginary = imaginary;
     }
 
-    
+    public double getReal() {
+        return this.real;
+    }
+
+    public double getImaginary() {
+        return this.imaginary;
+    }
 }
