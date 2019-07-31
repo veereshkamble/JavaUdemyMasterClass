@@ -10,6 +10,9 @@ public class ComplexNumberTest {
         System.out.println("one.real= " + one.getReal());
         System.out.println("one.imaginary= " + one.getImaginary());
 
+        one.subtract(number);
+        System.out.println("one.real= " + one.getReal());
+        System.out.println("one.imaginary= " + one.getImaginary());
         
     }
 }
