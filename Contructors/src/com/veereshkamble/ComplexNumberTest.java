@@ -13,6 +13,9 @@ public class ComplexNumberTest {
         one.subtract(number);
         System.out.println("one.real= " + one.getReal());
         System.out.println("one.imaginary= " + one.getImaginary());
-        
+
+        number.subtract(one);
+        System.out.println("one.real= " + number.getReal());
+        System.out.println("one.imaginary= " + number.getImaginary());
     }
 }
