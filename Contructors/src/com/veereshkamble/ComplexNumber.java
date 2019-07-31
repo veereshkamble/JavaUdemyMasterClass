@@ -19,11 +19,12 @@ public class ComplexNumber {
     }
 
     public void add(double real, double imaginary) {
-
+        this.real += real;
+        this.imaginary += imaginary;
     }
 
     public void add(ComplexNumber complexNumber) {
-
+        add(complexNumber.real, complexNumber.imaginary);
     }
 
     public void subtract(double real, double imaginary) {
