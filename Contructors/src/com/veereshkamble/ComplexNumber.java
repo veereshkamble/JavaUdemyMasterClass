@@ -28,10 +28,11 @@ public class ComplexNumber {
     }
 
     public void subtract(double real, double imaginary) {
-
+        this.real -= real;
+        this.imaginary -= imaginary;
     }
 
     public void subtract(ComplexNumber complexNumber) {
-
+        subtract(complexNumber.real, complexNumber.imaginary);
     }
 }
