@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1b5449f-a753-4ac8-80ce-5796b872ba3f" name="Default Changelist" comment="" />
+    <list default="true" id="c1b5449f-a753-4ac8-80ce-5796b872ba3f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/veereshkamble/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veereshkamble/ComplexNumber.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/ComplexNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="60">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -135,8 +138,8 @@
         <option value="$PROJECT_DIR$/src/com/veereshkamble/Carpet.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/com/veereshkamble/ComplexNumber.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/ComplexNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/com/veereshkamble/ComplexNumber.java" />
       </list>
     </option>
   </component>
@@ -174,8 +177,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,7 +289,7 @@
     <frame x="875" y="23" width="805" height="984" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30668414" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33027524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -301,7 +304,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" side_tool="true" visible="true" weight="0.3295964" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -415,8 +418,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/ComplexNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>

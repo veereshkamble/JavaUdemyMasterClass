@@ -2,7 +2,7 @@ package com.veereshkamble;
 
 public class ComplexNumber {
 
-    private double real;
+    private double real;  
     private double imaginary;
 
     public ComplexNumber(double real, double imaginary) {
