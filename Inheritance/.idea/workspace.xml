@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfdf5fb5-8d4a-4aea-bf8d-ea47bd19131f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/veereshkamble/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veereshkamble/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/veereshkamble/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veereshkamble/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/veereshkamble/Camaro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veereshkamble/Camaro.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/Camaro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="165">
+              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -96,9 +95,9 @@
         <option value="$PROJECT_DIR$/src/com/veereshkamble/Dog.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/Fish.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/Animal.java" />
-        <option value="$PROJECT_DIR$/src/com/veereshkamble/Camaro.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/com/veereshkamble/Car.java" />
+        <option value="$PROJECT_DIR$/src/com/veereshkamble/Camaro.java" />
       </list>
     </option>
   </component>
@@ -141,7 +140,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565152409185" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565152863965" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -272,8 +271,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/veereshkamble/Camaro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="165">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
