@@ -63,4 +63,5 @@ public class Car extends Vehicle{
         move(speed, direction);
         System.out.println("Car.changeVelocity() : Velocity " + speed + " direction " + direction);
     }
+
 }
