@@ -3,7 +3,7 @@ package com.veereshkamble;
 /**
  * Created by Vee on Aug 5, 2019
  */
-public class Animal {
+public class Animal extends Object {
 
     private String name;
     private int brain;
