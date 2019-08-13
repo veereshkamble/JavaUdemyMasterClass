@@ -14,6 +14,10 @@ public class Motherboard {
         this.bios = bios;
     }
 
+    public void loadProgram(String programName) {
+        System.out.println("Program " + programName + " is nor loading...");
+    }
+
     public String getModel() {
         return model;
     }
@@ -32,5 +36,25 @@ public class Motherboard {
 
     public String getBios() {
         return bios;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setManufacturer(String manufacturer) {
+        this.manufacturer = manufacturer;
+    }
+
+    public void setRamSlots(int ramSlots) {
+        this.ramSlots = ramSlots;
+    }
+
+    public void setCardSlots(int cardSlots) {
+        this.cardSlots = cardSlots;
+    }
+
+    public void setBios(String bios) {
+        this.bios = bios;
     }
 }
