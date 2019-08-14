@@ -15,4 +15,36 @@ public class Case {
     public void pressPowerButton() {
         System.out.println("Power button pressed");
     }
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getManufacturer() {
+        return manufacturer;
+    }
+
+    public String getPowerSupply() {
+        return powerSupply;
+    }
+
+    public Dimensions getDimensions() {
+        return dimensions;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setManufacturer(String manufacturer) {
+        this.manufacturer = manufacturer;
+    }
+
+    public void setPowerSupply(String powerSupply) {
+        this.powerSupply = powerSupply;
+    }
+
+    public void setDimensions(Dimensions dimensions) {
+        this.dimensions = dimensions;
+    }
 }
