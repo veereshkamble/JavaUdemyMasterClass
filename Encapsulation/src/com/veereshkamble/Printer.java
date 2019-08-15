@@ -28,4 +28,38 @@ public class Printer {
             return -1;
         }
     }
+
+    public int printPages(int pages) {
+        int pagesToPrint = pages;
+        if(this.duplex) {
+            pagesToPrint = (pages / 2) + (pages % 2);
+            System.out.println("Printing in duplex mode");
+        }
+        this.pagesPrinted += pagesToPrint
+        return pagesToPrint;
+    }
+
+    public int getTonerLevel() {
+        return tonerLevel;
+    }
+
+    public int getPagesPrinted() {
+        return pagesPrinted;
+    }
+
+    public boolean isDuplex() {
+        return duplex;
+    }
+
+    public void setTonerLevel(int tonerLevel) {
+        this.tonerLevel = tonerLevel;
+    }
+
+    public void setPagesPrinted(int pagesPrinted) {
+        this.pagesPrinted = pagesPrinted;
+    }
+
+    public void setDuplex(boolean duplex) {
+        this.duplex = duplex;
+    }
 }
