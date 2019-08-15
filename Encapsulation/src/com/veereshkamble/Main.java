@@ -9,7 +9,7 @@ public class Main {
 
         Player player = new Player();
 
-        player.name = "Vee";
+        player.fullName = "Vee";
         player.health = 20;
         player.weapon = "Swaord";
 
