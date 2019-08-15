@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        Player player = new Player();
+        /*Player player = new Player();
 
         player.fullName = "Vee";
         player.health = 20;
@@ -21,6 +21,6 @@ public class Main {
         player.health = 200;
         player.loseHealth(damage);
         System.out.println("remaining health = " + player.healthRemaining());
-
+*/
     }
 }
