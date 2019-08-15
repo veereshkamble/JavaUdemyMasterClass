@@ -35,4 +35,16 @@ public class EnhancedPlayer {
     public String getWeapon() {
         return weapon;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    public void setWeapon(String weapon) {
+        this.weapon = weapon;
+    }
 }

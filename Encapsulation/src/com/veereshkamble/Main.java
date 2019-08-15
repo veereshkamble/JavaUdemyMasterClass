@@ -22,5 +22,8 @@ public class Main {
         player.loseHealth(damage);
         System.out.println("remaining health = " + player.healthRemaining());
 */
+
+        EnhancedPlayer player = new EnhancedPlayer("Vee", 50, "sword");
+        System.out.println("Initial health is " +player.getHealth());
     }
 }
