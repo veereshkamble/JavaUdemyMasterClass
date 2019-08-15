@@ -3,44 +3,29 @@ package com.veereshkamble;
 public class Printer {
 
     private int tonerLevel;
-    private int numberOfPagesPrinted;
-    private boolean isDuplexPrinter;
+    private int pagesPrinted;
+    private boolean duplex;
 
-    public Printer(int tonerLevel, int numberOfPagesPrinted, boolean isDuplexPrinter) {
-        this.tonerLevel = tonerLevel;
-        this.numberOfPagesPrinted = numberOfPagesPrinted;
-        this.isDuplexPrinter = isDuplexPrinter;
+    public Printer(int tonerLevel, boolean duplex) {
+        if(tonerLevel > -1 && tonerLevel <= 100) {
+            this.tonerLevel = tonerLevel;
+        } else {
+            this.tonerLevel = -1;
+        }
+
+        this.duplex = duplex;
+        this.pagesPrinted = 0;
     }
 
-    public void setTonerLevel(int tonerLevel) {
-        this.tonerLevel = tonerLevel;
-    }
-
-    public void setNumberOfPagesPrinted(int numberOfPagesPrinted) {
-        this.numberOfPagesPrinted = numberOfPagesPrinted;
-    }
-
-    public void setDuplexPrinter(boolean duplexPrinter) {
-        isDuplexPrinter = duplexPrinter;
-    }
-
-    public int getTonerLevel() {
-        return tonerLevel;
-    }
-
-    public int getNumberOfPagesPrinted() {
-        return numberOfPagesPrinted;
-    }
-
-    public boolean isDuplexPrinter() {
-        return isDuplexPrinter;
-    }
-
-    public void fillToner(int tonerAmount) {
-
-    }
-
-    public void printingPage() {
-        this.getNumberOfPagesPrinted()++;
+    public int addToner(int tonerAmount) {
+        if(tonerAmount > 0 && tonerAmount <= 100)  {
+            if(this.tonerLevel + tonerAmount > 100) {
+                return -1;
+            }
+            this.tonerLevel += tonerAmount;
+            return this.tonerLevel;
+        } else {
+            return -1;
+        }
     }
 }
