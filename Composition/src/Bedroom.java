@@ -86,5 +86,6 @@ public class Bedroom {
 
     public void makeBed() {
         System.out.println("Bedroom -> Making Bed");
+        bed.make();
     }
 }
