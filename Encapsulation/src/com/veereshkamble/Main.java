@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Initial health is " +player.getHealth());
         */
 
-        Printer printer = new Printer(50, true);
+        Printer printer = new Printer(50, false);
         System.out.println("Initial page count = " +printer.getPagesPrinted());
         int pagesPrinted = printer.printPages(4);
         System.out.println("Pages printed was " + pagesPrinted + " new total" +
