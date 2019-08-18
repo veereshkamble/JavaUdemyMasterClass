@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07f69852-340c-478b-ac4d-0d0c9a311dba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/veereshkamble/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veereshkamble/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="07f69852-340c-478b-ac4d-0d0c9a311dba" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +70,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="72" />
+    <option name="x" value="875" />
     <option name="y" value="23" />
     <option name="width" value="805" />
     <option name="height" value="984" />
@@ -158,7 +155,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="23" width="805" height="984" extended-state="0" />
+    <frame x="875" y="23" width="805" height="984" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2555701" />
