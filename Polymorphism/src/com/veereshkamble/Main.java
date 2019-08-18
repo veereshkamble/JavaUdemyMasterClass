@@ -33,6 +33,36 @@ class IndependenceDay extends Movie {
     }
 }
 
+class MazeRunner extends Movie {
+    public MazeRunner() {
+        super("Maze Runner");
+    }
+
+    @Override
+    public String plot() {
+        return "Kids try to escape a maze.";
+    }
+}
+
+class StarWars extends Movie {
+    public StarWars() {
+        super("Star Wars");
+    }
+
+    @Override
+    public String plot() {
+        return "Imperial Forces try to take over the universe";
+    }
+}
+
+class Forgettable extends Movie {
+
+    public Forgettable() {
+        super("Forgettable");
+    }
+
+    //No plot override
+}
 
 public class Main {
 
