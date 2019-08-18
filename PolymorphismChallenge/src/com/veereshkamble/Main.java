@@ -49,17 +49,59 @@ class Mitsubishi extends Car {
 
     @Override
     public String startEngine() {
-        return "Mitsubishi -> startEngine()";
+        return getClass().getSimpleName() + " -> startEngine()";
     }
 
     @Override
     public String accelerate() {
-        return "Mitsubishi -> accelerate()";
+        return getClass().getSimpleName() + " -> accelerate()";
     }
 
     @Override
     public String brake() {
-        return "Mitsubishi -> brake()";
+        return getClass().getSimpleName() + " -> brake()";
+    }
+}
+
+class Chevrolet extends Car {
+    public Chevrolet(int cylinders, String name) {
+        super(cylinders, name);
+    }
+
+    @Override
+    public String startEngine() {
+        return "Chevrolet -> startEngine()";
+    }
+
+    @Override
+    public String accelerate() {
+        return "Chevrolet -> accelerate()";
+    }
+
+    @Override
+    public String brake() {
+        return "Chevrolet -> brake()";
+    }
+}
+
+class Ford extends Car {
+    public Ford(int cylinders, String name) {
+        super(cylinders, name);
+    }
+
+    @Override
+    public String startEngine() {
+        return "Ford -> startEngine()";
+    }
+
+    @Override
+    public String accelerate() {
+        return "Ford -> accelerate()";
+    }
+
+    @Override
+    public String brake() {
+        return "Ford -> brake()";
     }
 }
 
@@ -68,21 +110,25 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         Car car = new Car(8,"Base car");
+        System.out.println(car.getName());
         System.out.println(car.startEngine());
         System.out.println(car.accelerate());
         System.out.println(car.brake());
 
         Mitsubishi mitsubishi = new Mitsubishi(6, "Outlander VRX 4WD");
+        System.out.println(mitsubishi.getName());
         System.out.println(mitsubishi.startEngine());
         System.out.println(mitsubishi.accelerate());
         System.out.println(mitsubishi.brake());
 
         Ford ford = new Ford(6, "Ford Mustang");
+        System.out.println(ford.getName());
         System.out.println(ford.startEngine());
         System.out.println(ford.accelerate());
         System.out.println(ford.brake());
 
-        Chevrolet chevrolet = new Chevrolet(8, "Ford Camaro");
+        Chevrolet chevrolet = new Chevrolet(8, "Chevrolet Camaro");
+        System.out.println(chevrolet.getName());
         System.out.println(chevrolet.startEngine());
         System.out.println(chevrolet.accelerate());
         System.out.println(chevrolet.brake());
