@@ -82,5 +82,9 @@ public class Main {
         System.out.println(ford.accelerate());
         System.out.println(ford.brake());
 
+        Chevrolet chevrolet = new Chevrolet(8, "Ford Camaro");
+        System.out.println(chevrolet.startEngine());
+        System.out.println(chevrolet.accelerate());
+        System.out.println(chevrolet.brake());
     }
 }
