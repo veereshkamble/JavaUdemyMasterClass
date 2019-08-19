@@ -20,5 +20,6 @@ public class Main {
 
         DeluxeBurger deluxeBurger = new DeluxeBurger();
         deluxeBurger.itemizeHamburger();
+        deluxeBurger.addHamburgerAddition1("asd", 3.4);
     }
 }
