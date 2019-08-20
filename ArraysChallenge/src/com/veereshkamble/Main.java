@@ -10,8 +10,8 @@ public class Main {
 	// write your code here
         int[] myIntegers = getIntegers(5);
         printArray(myIntegers);
-        sortArray(myIntegers);
-        printArray(myIntegers);
+        int[] sorted = sortArray(myIntegers);
+        printArray(sorted);
     }
 
     public static int[] getIntegers(int number) {
