@@ -60,5 +60,10 @@ public class Main {
         System.out.println("\t 1 - To quit the application.");
     }
 
+    public static void addItem() {
+        System.out.println("Please enter the grocery item: " );
+        groceryList.addGroceryItem(scanner.nextLine());
+    }
+
     
 }
