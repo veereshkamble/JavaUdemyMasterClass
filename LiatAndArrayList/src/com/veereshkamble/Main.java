@@ -68,6 +68,7 @@ public class Main {
     public static void modifyItem() {
         System.out.println("Enter item number: ");
         int itemNumber = scanner.nextInt();
+        scanner.nextLine();
         System.out.println("Enter replacement item: ");
         String newItem = scanner.nextLine();
         groceryList.modifyGroceryOtem(itemNumber - 1, newItem);
@@ -77,7 +78,7 @@ public class Main {
         System.out.println("Enter item number: ");
         int itemNumber = scanner.nextInt();
         scanner.nextLine();
-        groceryList.removeGroceryItem(itemNumber);
+        groceryList.removeGroceryItem(itemNumber - 1);
     }
 
     public static void searchForItem() {
