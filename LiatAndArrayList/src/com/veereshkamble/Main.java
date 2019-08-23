@@ -53,11 +53,11 @@ public class Main {
         System.out.println("\n Choose an option ");
         System.out.println("\t 0 - To print choice options.");
         System.out.println("\t 1 - To print the list of grocery items.");
-        System.out.println("\t 1 - To add an item to the list.");
-        System.out.println("\t 1 - To modify an item in the list.");
-        System.out.println("\t 1 - To remove an item from the list.");
-        System.out.println("\t 1 - To search for an item in the list.");
-        System.out.println("\t 1 - To quit the application.");
+        System.out.println("\t 2 - To add an item to the list.");
+        System.out.println("\t 3 - To modify an item in the list.");
+        System.out.println("\t 4 - To remove an item from the list.");
+        System.out.println("\t 5 - To search for an item in the list.");
+        System.out.println("\t 6 - To quit the application.");
     }
 
     public static void addItem() {
