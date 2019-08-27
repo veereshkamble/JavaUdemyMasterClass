@@ -1,5 +1,6 @@
 package com.veereshkamble;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -43,11 +44,13 @@ public class Main {
                     break;
 
                 case 6:
-                    quit = true;
+                    processArrayList();
                     break;
 
                 case 7:
-                    
+                    quit = true;
+                    break;
+
             }
         }
     }
@@ -92,5 +95,10 @@ public class Main {
         } else {
             System.out.println(searchItem + " is not in the shopping list");
         }
+    }
+
+    public static void processArrayList() {
+        ArrayList<String> newArray = new ArrayList<String>();
+        newArray.addAll(groceryList.getGroceryList());
     }
 }
