@@ -100,5 +100,7 @@ public class Main {
     public static void processArrayList() {
         ArrayList<String> newArray = new ArrayList<String>();
         newArray.addAll(groceryList.getGroceryList());
+
+        ArrayList<String> nextArray = new ArrayList<String>(groceryList.getGroceryList());
     }
 }
