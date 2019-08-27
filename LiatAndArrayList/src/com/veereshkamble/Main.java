@@ -71,7 +71,7 @@ public class Main {
         scanner.nextLine();
         System.out.println("Enter replacement item: ");
         String newItem = scanner.nextLine();
-        groceryList.modifyGroceryOtem(itemNumber - 1, newItem);
+        groceryList.modifyGroceryItem(itemNumber - 1, newItem);
     }
 
     public static void removeItem() {
