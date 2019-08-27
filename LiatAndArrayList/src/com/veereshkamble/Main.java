@@ -45,6 +45,9 @@ public class Main {
                 case 6:
                     quit = true;
                     break;
+
+                case 7:
+                    
             }
         }
     }
