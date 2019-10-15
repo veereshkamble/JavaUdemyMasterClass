@@ -102,7 +102,7 @@ public class Main {
         String name = scanner.nextLine();
         Contact existingContactRecord = mobilePhone.queryContact(name);
         if (existingContactRecord == null) {
-            System.out.println("Contact not founf.");
+            System.out.println("Contact not found.");
             return;
         }
 
